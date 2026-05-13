@@ -1,13 +1,12 @@
-package uz.brb.webclientmonolith.entity;
+package uz.brb.webclientmonolith.dto;
 
 import lombok.Data;
 
 @Data
-public class AddressEntity {
-    private Long id;
+public class AddressDto {
     private String street;
     private String suite;
     private String city;
     private String zipcode;
-    private GeoEntity geo;
+    private GeoDto geo;
 }
