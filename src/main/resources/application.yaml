@@ -1,0 +1,6 @@
+server:
+  port: 5567
+
+spring:
+  application:
+    name: WebClientMonolith
